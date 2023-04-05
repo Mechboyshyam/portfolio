@@ -22,12 +22,12 @@ function Home() {
             </div>
           </div>
         </div>
-      {/* contact and address details are here */}
-        <div className="d-flex row">
-          <div className="col-6">
-            Contact no : 9657961608
+        <div className="experience mt-5">
+          <div className="text-center h3">Professional Experience</div>
+          <div className="h6">
+            1. One month internship in Tata Motors. <br/>
+            2. One year experience as Technician in Tata Motors (Commercial Vehicle).
           </div>
-          <div className="col-6"></div>
         </div>
       </div>
     </div>
