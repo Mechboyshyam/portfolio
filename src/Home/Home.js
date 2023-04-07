@@ -19,9 +19,7 @@ function Home() {
   }
 
   return (
-    <div>
-      <hr />
-      <h1 className="text-center bg-danger">Resume</h1> <hr />
+    <div className="borderr">
       <div className="container mt-5">
         {/* part 1 */}
         <div className="row d-flex">
@@ -40,6 +38,9 @@ function Home() {
               <button className="btn btn-2">CSS</button>
               <button className="btn btn-3">JAVA-SCRIPT</button>
               <button className="btn btn-4">REACT-JS</button>
+              <button className="btn btn-5">Git-Hub</button>
+              <button className="btn btn-6">Mongo-DB</button>
+              <button className="btn btn-7">C</button>
             </div>
             {/* skills of candidate ends here */}
           </div>
@@ -173,14 +174,12 @@ function Home() {
                   <div>Male </div>
                   <div> Indian </div>
                   <div>Marathi, Hindi, English and Gujarati.</div>
+                  <br />
                 </div>
-                <div className="col-5 borderrr"> <br />
-                  <div>Contact No : <span onClick={phone}>9657961608</span> </div>
-                  <div>Email-id : <span onClick={email}>Shyamkorade0@gmail.com</span></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
+                <div className="col-5 text-center borderrr"> <br /> <br />
+                  <div>Contact No : <span className="project-btn" onClick={phone}>9657961608</span> </div>
+                  <div>Email-id : <span className="project-btn" onClick={email}>Shyamkorade0@gmail.com</span></div>
+                  <div>Address : Pragati Nagar, Janahit Housing Society, Jaitala, Nagpur-440036</div>
                 </div>
               </div>
             </div>

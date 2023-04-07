@@ -51,6 +51,24 @@
     margin-left: 5px;
 }
 
+.btn-5{
+    background-color: #171515 ;
+    color: whitesmoke;
+    margin-left: 5px;
+}
+
+.btn-6{
+    background-color: green ;
+    color: whitesmoke;
+    margin-left: 5px;
+}
+
+.btn-7{
+    background-color: rgb(110, 110, 230) ;
+    /* font-weight: 100px; */
+    margin-left: 5px;
+}
+
 .flex-box-education{
     justify-content:space-evenly;
 }
@@ -61,11 +79,13 @@
 
 .borderr{
     border: 1px solid black;
+    border-radius: 15px;
 }
 
 .borderrr{
     border-left: 1px solid black;
     border-top: 1px solid black;
+    border-radius: 15px;
 }
 
 .personal-border{
