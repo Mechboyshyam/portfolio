@@ -147,28 +147,31 @@ function Home() {
             <div className="border">
               <div className="d-flex row">
                 <div className="col-2">
-                  Fathers name <br />
-                  Date of birth <br />
-                  Marital status <br />
-                  Gender <br />
-                  Nationality <br />
-                  Language known
+                  <div>Father's name</div>
+                  <div>Mother's name</div>
+                  <div>Date of birth</div>
+                  <div>Marital status</div>
+                  <div>Gender</div>
+                  <div>Nationality</div>
+                  <div>Language known</div>
                 </div>
                 <div className="col-1">
-                  : <br />
-                  : <br />
-                  : <br />
-                  : <br />
-                  : <br />
-                  :
+                  <div>:</div>
+                  <div>:</div>
+                  <div>:</div>
+                  <div>:</div>
+                  <div>:</div>
+                  <div>:</div>
+                  <div>:</div>
                 </div>
                 <div className="col-4">
-                Diwakar Shiwaram Korade.  <br />
-                28 Feb 2000  <br />
-                Unmarried  <br />
-                Male  <br />
-                Indian <br />
-                Marathi, Hindi, English and Gujarati.
+                  <div>Diwakar Shiwaram Korade.</div>
+                  <div>Jyoti Diwakar Korade</div>
+                  <div>28 Feb 2000</div>
+                  <div>Unmarried </div>
+                  <div>Male </div>
+                  <div> Indian </div>
+                  <div>Marathi, Hindi, English and Gujarati.</div>
                 </div>
               </div>
             </div>
