@@ -19,7 +19,7 @@ function Home() {
   }
 
   return (
-    <div className="borderr">
+    <div className="border-page">
       <div className="container mt-5">
         {/* part 1 */}
         <div className="row d-flex">
@@ -29,7 +29,8 @@ function Home() {
           </div>
           {/* name of candidate */}
           <div className="col-8">
-            <p class="mt-2 text">
+            <p className="text-center text border">Resume</p>
+            <p class="mt-4 text">
               <span className="name">Name : Shyam Diwakar Korade.</span>
             </p>
             {/* skills of candidate */}
@@ -177,7 +178,7 @@ function Home() {
                   <br />
                 </div>
                 <div className="col-5 text-center borderrr"> <br /> <br />
-                  <div>Contact No : <span className="project-btn" onClick={phone}>9657961608</span> </div>
+                  <div>Contact No : <span className="project-btn" onClick={phone}>+91-9657961608</span> </div>
                   <div>Email-id : <span className="project-btn" onClick={email}>Shyamkorade0@gmail.com</span></div>
                   <div>Address : Pragati Nagar, Janahit Housing Society, Jaitala, Nagpur-440036</div>
                 </div>
