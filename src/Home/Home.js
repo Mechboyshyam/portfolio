@@ -49,20 +49,21 @@ function Home() {
         <div className="row">
           <div className="col-5">
             {/* experience div */}
-            <div className="experience mt-5">
+            <div className="experience border mt-5">
               <div className="topic text-center h3">Professional Experience</div>
-              <div className="h6">
+              <div className="h6 ms-3">
                 1. 1.3 Year - experience as Technician in Tata Motors
-                (Commercial Vehicle).
-                2. One month internship in Tata Motors. <br />
+                (Commercial Vehicle). <br />
+                2. One month internship in Tata Motors. 
               </div>
             </div>
+            
             {/* experience div ends here*/}
 
             {/* project  */}
-            <div className="projects mt-4">
+            <div className="projects border mt-4">
               <div className="topic text-center h3">Projects</div>
-              <div className="h6">
+              <div className="h6 ms-3">
                 1. Design and study of Vortex Generator on Air-craft (Final
                 Year). <br />
                 2. Calculator -
@@ -78,11 +79,12 @@ function Home() {
               </div>
             </div>
             {/* project ends here */}
+            
 
             {/* hobbies */}
-            <div className="hobbies mt-4">
+            <div className="hobbies border mt-4">
               <div className="h3 text-center">Hobbies</div>
-              <div className="h6">
+              <div className="h6 ms-3">
                 1. Learning mechanism <br />
                 2. Learning new skill's <br />
                 3. Designing website's <br />
@@ -93,41 +95,42 @@ function Home() {
               </div>
             </div>
             {/* hobbies ends here */}
+            
           </div>
           {/* <div className="col-1"></div> */}
           {/* education details  */}
-          <div className="col-7 mt-5">
+          <div className="col-7 mt-5 border">
             <h3 className="text-center">Educational Details</h3>
             <div className="row d-flex flex-box-education">
-              <div className="col-1">Qualification</div>
-              <div className="col-3">College/ Course</div>
-              <div className="col-2">Board/ University</div>
-              <div className="col-1">Passout Year</div>
+              <div className="col-1 mt-3 edu-row h6">Education</div>
+              <div className="col-3 mt-3 h6">College/ Course</div>
+              <div className="col-2 h6">Board/ University</div>
+              <div className="col-1 h6">Year of passing</div>
             </div>
 
             <div className="row d-flex mt-3 flex-box-education">
-              <div className="col-1 mt-3">Full Stack</div>
+              <div className="col-1 edu-row mt-3">Full Stack</div>
               <div className="col-3">Full Stack Web Developement</div>
               <div className="col-2">Road to Code</div>
               <div className="col-1 mt-3">2023</div>
             </div>
 
             <div className="row d-flex mt-3 flex-box-education">
-              <div className="col-1 mt-4">B.E</div>
+              <div className="col-1 edu-row mt-4">B.E</div>
               <div className="col-3">Dr.Babasaheb Ambedkar college of engineering and research, Nagpur.</div>
               <div className="col-2">Rastrasant Tukdoji Maharaj Nagpur</div>
               <div className="col-1 mt-4">2022</div>
             </div>
 
             <div className="row d-flex mt-3 flex-box-education">
-              <div className="col-1 mt-3">HSC</div>
-              <div className="col-3">Janta Juniour college Nagbhid</div>
+              <div className="col-1 edu-row mt-3">HSC</div>
+              <div className="col-3">Janta Juniour college, Nagbhid</div>
               <div className="col-2">Maharastra state board, Pune</div>
               <div className="col-1 mt-3">2018</div>
             </div>
 
             <div className="row d-flex mt-3 flex-box-education">
-              <div className="col-1 mt-3">SSC</div>
+              <div className="col-1 edu-row mt-3">SSC</div>
               <div className="col-3">Janta Vidyalaya, Nagbhid</div>
               <div className="col-2">Maharastra state board, Pune</div>
               <div className="col-1 mt-3">2016</div>
@@ -135,6 +138,11 @@ function Home() {
 
           </div>
           {/* end of education detail */}
+
+          <div>
+           
+          </div>
+
         </div>
       </div>
     </div>
