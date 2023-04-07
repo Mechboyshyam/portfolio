@@ -11,12 +11,12 @@ function Home() {
     window.location.href = "https://mechboyshyam-task-2-paytm.netlify.app/";
   }
 
-  //   function phone(){
-  //       window.location.href="tel:9657961608"
-  //   }
-  //   function email(){
-  //     window.location.href="mailto:shyamkorade0@gmail.com"
-  // }
+    function phone(){
+        window.location.href="tel:9657961608"
+    }
+    function email(){
+      window.location.href="mailto:shyamkorade0@gmail.com"
+  }
 
   return (
     <div>
@@ -49,11 +49,11 @@ function Home() {
         <div className="row">
           <div className="col-5">
             {/* experience div */}
-            <div className="experience border mt-5">
+            <div className="experience borderr mt-5">
               <div className="topic text-center h3">
                 Professional Experience
               </div>
-              <div className="h6 ms-3">
+              <div className=" ms-3">
                 1. 1.3 Year - experience as Technician in Tata Motors
                 (Commercial Vehicle). <br />
                 2. One month internship in Tata Motors.
@@ -63,9 +63,9 @@ function Home() {
             {/* experience div ends here*/}
 
             {/* project  */}
-            <div className="projects border mt-4">
+            <div className="projects borderr mt-4">
               <div className="topic text-center h3">Projects</div>
-              <div className="h6 ms-3">
+              <div className=" ms-3">
                 1. Design and study of Vortex Generator on Air-craft (Final
                 Year). <br />
                 2. Calculator -
@@ -83,9 +83,9 @@ function Home() {
             {/* project ends here */}
 
             {/* hobbies */}
-            <div className="hobbies border mt-4">
+            <div className="hobbies borderr mt-4">
               <div className="h3 text-center">Hobbies</div>
-              <div className="h6 ms-3">
+              <div className=" ms-3">
                 1. Learning mechanism <br />
                 2. Learning new skill's <br />
                 3. Designing website's <br />
@@ -99,7 +99,7 @@ function Home() {
           </div>
           {/* <div className="col-1"></div> */}
           {/* education details  */}
-          <div className="col-7 mt-5 border">
+          <div className="col-7 mt-5 borderr">
             <h3 className="text-center">Educational Details</h3>
             <div className="row d-flex flex-box-education">
               <div className="col-1 mt-3 edu-row h6">Education</div>
@@ -142,10 +142,11 @@ function Home() {
           {/* end of education detail */}
 
           {/* personal <details></details> */}
-          <div className="mt-5">
-            <h3 className="text-center">Personal Detail's</h3>
-            <div className="border">
-              <div className="d-flex row">
+          <div className="mt-5 row">
+            <div className="ms-2 mb-4 borderr">
+              <div className="d-flex  row">
+            <h3 className="text-center mb-4 mt-3">Personal Detail's</h3>
+                <hr />
                 <div className="col-2">
                   <div>Father's name</div>
                   <div>Mother's name</div>
@@ -172,6 +173,14 @@ function Home() {
                   <div>Male </div>
                   <div> Indian </div>
                   <div>Marathi, Hindi, English and Gujarati.</div>
+                </div>
+                <div className="col-5 borderrr"> <br />
+                  <div>Contact No : <span onClick={phone}>9657961608</span> </div>
+                  <div>Email-id : <span onClick={email}>Shyamkorade0@gmail.com</span></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
                 </div>
               </div>
             </div>
