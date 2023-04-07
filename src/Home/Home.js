@@ -68,12 +68,12 @@ function Home() {
                 Year). <br />
                 2. Calculator -
                 <span className="project-btn" onClick={calculator}>
-                  Click here
+                  click here
                 </span>
                 <br />
                 3. Paytm front page -
                 <span className="project-btn" onClick={paytm}>
-                  Click here
+                  click here
                 </span>
                 <br />
               </div>
@@ -139,8 +139,12 @@ function Home() {
           </div>
           {/* end of education detail */}
 
-          <div>
-           
+{/* personal <details></details> */}
+          <div className="mt-5">
+           <h3 className="text-center">Personal Detail's</h3>
+           <div className="border">
+              
+           </div>
           </div>
 
         </div>
