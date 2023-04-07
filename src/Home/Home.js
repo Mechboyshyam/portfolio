@@ -23,7 +23,7 @@ function Home() {
       <hr />
       <h1 className="text-center bg-danger">Resume</h1> <hr />
       <div className="container mt-5">
-      {/* part 1 */}
+        {/* part 1 */}
         <div className="row d-flex">
           {/* profile photo */}
           <div className="col-4">
@@ -50,14 +50,16 @@ function Home() {
           <div className="col-5">
             {/* experience div */}
             <div className="experience border mt-5">
-              <div className="topic text-center h3">Professional Experience</div>
+              <div className="topic text-center h3">
+                Professional Experience
+              </div>
               <div className="h6 ms-3">
                 1. 1.3 Year - experience as Technician in Tata Motors
                 (Commercial Vehicle). <br />
-                2. One month internship in Tata Motors. 
+                2. One month internship in Tata Motors.
               </div>
             </div>
-            
+
             {/* experience div ends here*/}
 
             {/* project  */}
@@ -79,7 +81,6 @@ function Home() {
               </div>
             </div>
             {/* project ends here */}
-            
 
             {/* hobbies */}
             <div className="hobbies border mt-4">
@@ -95,7 +96,6 @@ function Home() {
               </div>
             </div>
             {/* hobbies ends here */}
-            
           </div>
           {/* <div className="col-1"></div> */}
           {/* education details  */}
@@ -117,7 +117,10 @@ function Home() {
 
             <div className="row d-flex mt-3 flex-box-education">
               <div className="col-1 edu-row mt-4">B.E</div>
-              <div className="col-3">Dr.Babasaheb Ambedkar college of engineering and research, Nagpur.</div>
+              <div className="col-3">
+                Dr.Babasaheb Ambedkar college of engineering and research,
+                Nagpur.
+              </div>
               <div className="col-2">Rastrasant Tukdoji Maharaj Nagpur</div>
               <div className="col-1 mt-4">2022</div>
             </div>
@@ -135,18 +138,41 @@ function Home() {
               <div className="col-2">Maharastra state board, Pune</div>
               <div className="col-1 mt-3">2016</div>
             </div>
-
           </div>
           {/* end of education detail */}
 
-{/* personal <details></details> */}
+          {/* personal <details></details> */}
           <div className="mt-5">
-           <h3 className="text-center">Personal Detail's</h3>
-           <div className="border">
-              
-           </div>
+            <h3 className="text-center">Personal Detail's</h3>
+            <div className="border">
+              <div className="d-flex row">
+                <div className="col-2">
+                  Fathers name <br />
+                  Date of birth <br />
+                  Marital status <br />
+                  Gender <br />
+                  Nationality <br />
+                  Language known
+                </div>
+                <div className="col-1">
+                  : <br />
+                  : <br />
+                  : <br />
+                  : <br />
+                  : <br />
+                  :
+                </div>
+                <div className="col-4">
+                Diwakar Shiwaram Korade.  <br />
+                28 Feb 2000  <br />
+                Unmarried  <br />
+                Male  <br />
+                Indian <br />
+                Marathi, Hindi, English and Gujarati.
+                </div>
+              </div>
+            </div>
           </div>
-
         </div>
       </div>
     </div>
