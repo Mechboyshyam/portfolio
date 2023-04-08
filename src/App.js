@@ -1,5 +1,6 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Home from "./Home/Home.js"
+import Resume from "./Resume/Resume.js"
 
 function App() {
   return (
@@ -7,8 +8,8 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={< Home />} />
-          {/* <Route path="/login" element={< Login />} />
-          <Route path="/signup" element={< Signup />} />
+          <Route path="/resume" element={< Resume />} />
+          {/* <Route path="/signup" element={< Signup />} />
           <Route path="/booktable" element={< BookTable />} />
           <Route path="/mylist" element={< MyList />} />
           <Route path="/myorders" element={< MyOrders />} /> */}
