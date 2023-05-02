@@ -1,0 +1,14 @@
+.app-img{
+   /* background-image:url(https://wallpaper.dog/large/5565463.jpg) ; */
+   /* The image used */
+   background-image: url("https://wallpaperaccess.com/full/1323307.jpg");
+
+   /* Full height */
+   height: 200vh; 
+
+   /* Center and scale the image nicely */
+   background-position: center;
+   background-repeat:no;
+   background-size:cover;
+   background-attachment:fixed;
+}
