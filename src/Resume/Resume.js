@@ -1,5 +1,6 @@
 import React from "react";
 import "./Resume.css";
+import Navbar from "../Navbar/Navbar";
 import Profile from "./../Images/shyam2.JPG";
 
 function Home() {
@@ -19,7 +20,8 @@ function Home() {
   }
 
   return (
-    <div className="border-page">
+    <div>
+      <Navbar/>
       <div className="container mt-5">
         {/* part 1 */}
         <div className="row d-flex">

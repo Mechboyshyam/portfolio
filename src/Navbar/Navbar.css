@@ -4,4 +4,9 @@
 
 .white:hover{
     color: white;
+    cursor:pointer;
+}
+
+.cursor{
+    cursor: pointer;
 }

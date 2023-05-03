@@ -1,13 +1,29 @@
 import React from 'react'
 import "./Navbar.css";
+// import { Link } from 'react-router-dom';
 
 function Navbar() {
+  async function resume(){
+    window.location.href='/resume';
+  }
+
+  function home(){
+    window.location.href='/';
+  }
+
+  function phone(){
+    window.location.href="tel:9657961608"
+}
+function email(){
+  window.location.href="mailto:shyamkorade0@gmail.com"
+}
+
   return (
     <div>
        <div className="navbar-top">
         <nav class="navbar navbar-expand-lg">
           <div class="container-fluid">
-            <span class="navbar-brand white">Navbar</span>
+            {/* <span class="navbar-brand white">Navbar</span> */}
             <button
               class="navbar-toggler"
               type="button"
@@ -21,35 +37,35 @@ function Navbar() {
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <span class="nav-link white" aria-current="page">
+                <li class="nav-item ms-5">
+                  <span class="nav-link white" onClick={home} aria-current="page">
                     Home
                   </span>
                 </li>
-                <li class="nav-item">
-                  <span class="nav-link white">Link</span>
+                <li class="nav-item ms-5">
+                  <span class="nav-link white" onClick={resume}>Portfolio</span>
                 </li>
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown ms-5">
                   <span
                     class="nav-link white dropdown-toggle"
                     role="button"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
-                    Dropdown
+                    Contact 
                   </span>
                   <ul class="dropdown-menu">
                     <li>
-                      <span class="dropdown-item ">Action</span>
+                      <span class="dropdown-item cursor" onClick={email}>Email</span>
                     </li>
                     <li>
-                      <span class="dropdown-item ">Another action</span>
+                      <span class="dropdown-item cursor" onClick={phone}> Mobile</span>
                     </li>
                     <li>
                       <hr class="dropdown-divider" />
                     </li>
                     <li>
-                      <span class="dropdown-item ">Something else here</span>
+                      <span class="dropdown-item cursor">Address on Map</span>
                     </li>
                   </ul>
                 </li>
@@ -62,7 +78,7 @@ function Navbar() {
                   aria-label="Search"
                 />
                 <button class="btn btn-outline-success white" type="submit">
-                  Search
+                  About
                 </button>
               </form>
             </div>
