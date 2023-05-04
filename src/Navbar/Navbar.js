@@ -7,6 +7,10 @@ function Navbar() {
     window.location.href='/resume';
   }
 
+  function about(){
+    window.location.href='/about';
+  }
+
   function home(){
     window.location.href='/';
   }
@@ -77,9 +81,9 @@ function email(){
                   placeholder="Search"
                   aria-label="Search"
                 />
-                <button class="btn btn-outline-success white" type="submit">
+                <span class="btn btn-outline-success white" onClick={about} type="submit">
                   About
-                </button>
+                </span>
               </form>
             </div>
           </div>
