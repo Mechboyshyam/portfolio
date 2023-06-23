@@ -1,3 +1,7 @@
+.name{
+    color: white;
+}
+
 .profile{
     height: 400px;
     width: 300px;
@@ -78,18 +82,18 @@
 }
 
 .borderr{
-    border: 1px solid black;
+    border: 1px solid white;
     border-radius: 15px;
 }
 
 .borderrr{
-    border-left: 1px solid black;
-    border-top: 1px solid black;
+    border-left: 1px solid white;
+    border-top: 1px solid white;
     border-radius: 15px;
 }
 
 .personal-border{
-    border-top: 1px solid black;
+    border-top: 1px solid white;
 }
 
 .border-page{

@@ -31,7 +31,7 @@ function Home() {
           </div>
           {/* name of candidate */}
           <div className="col-8">
-            <p className="text-center text border">Resume</p>
+            {/* <p className="text-center text border">Resume</p> */}
             <p class="mt-4 text">
               <span className="name">Name : Shyam Diwakar Korade.</span>
             </p>
@@ -54,10 +54,10 @@ function Home() {
           <div className="col-5">
             {/* experience div */}
             <div className="experience borderr mt-5">
-              <div className="topic text-center h3">
+              <div className="topic text-light text-center h3">
                 Professional Experience
               </div>
-              <div className=" ms-3">
+              <div className="text-light ms-3">
                 1. 1.3 Year - experience as Technician in Tata Motors
                 (Commercial Vehicle). <br />
                 2. One month internship in Tata Motors.
@@ -68,17 +68,17 @@ function Home() {
 
             {/* project  */}
             <div className="projects borderr mt-4">
-              <div className="topic text-center h3">Projects</div>
-              <div className=" ms-3">
+              <div className="topic text-light text-center h3">Projects</div>
+              <div className=" ms-3 text-light">
                 1. Design and study of Vortex Generator on Air-craft (Final
                 Year). <br />
                 2. Calculator -
-                <span className="project-btn" onClick={calculator}>
+                <span className="project-btn text-light" onClick={calculator}>
                   click here
                 </span>
                 <br />
                 3. Paytm front page -
-                <span className="project-btn" onClick={paytm}>
+                <span className="project-btn text-light" onClick={paytm}>
                   click here
                 </span>
                 <br />
@@ -88,8 +88,8 @@ function Home() {
 
             {/* hobbies */}
             <div className="hobbies borderr mt-4">
-              <div className="h3 text-center">Hobbies</div>
-              <div className=" ms-3">
+              <div className="h3 text-center text-light">Hobbies</div>
+              <div className=" ms-3 text-light">
                 1. Learning mechanism <br />
                 2. Learning new skill's <br />
                 3. Designing website's <br />
@@ -104,43 +104,43 @@ function Home() {
           {/* <div className="col-1"></div> */}
           {/* education details  */}
           <div className="col-7 mt-5 borderr">
-            <h3 className="text-center">Educational Details</h3>
+            <h3 className="text-center text-light">Educational Details</h3>
             <div className="row d-flex flex-box-education">
-              <div className="col-1 mt-3 edu-row h6">Education</div>
-              <div className="col-3 mt-3 h6">College/ Course</div>
-              <div className="col-2 h6">Board/ University</div>
-              <div className="col-1 h6">Year of passing</div>
+              <div className="col-1 mt-3 edu-row h6 text-light">Education</div>
+              <div className="col-3 mt-3 h6 text-light">College/ Course</div>
+              <div className="col-2 h6 text-light">Board/ University</div>
+              <div className="col-1 h6 text-light">Year of passing</div>
             </div>
 
             <div className="row d-flex mt-3 flex-box-education">
-              <div className="col-1 edu-row mt-3">Full Stack</div>
-              <div className="col-3">Full Stack Web Developement</div>
-              <div className="col-2">Road to Code</div>
-              <div className="col-1 mt-3">2023</div>
+              <div className="col-1 edu-row mt-3 text-light">Full Stack</div>
+              <div className="col-3 text-light">Full Stack Web Developement</div>
+              <div className="col-2 text-light">Road to Code</div>
+              <div className="col-1 mt-3 text-light">2023</div>
             </div>
 
             <div className="row d-flex mt-3 flex-box-education">
-              <div className="col-1 edu-row mt-4">B.E</div>
-              <div className="col-3">
+              <div className="col-1 edu-row mt-4 text-light">B.E</div>
+              <div className="col-3 text-light">
                 Dr.Babasaheb Ambedkar college of engineering and research,
                 Nagpur.
               </div>
-              <div className="col-2">Rastrasant Tukdoji Maharaj Nagpur</div>
-              <div className="col-1 mt-4">2022</div>
+              <div className="col-2 text-light">Rastrasant Tukdoji Maharaj Nagpur</div>
+              <div className="col-1 mt-4 text-light">2022</div>
             </div>
 
             <div className="row d-flex mt-3 flex-box-education">
-              <div className="col-1 edu-row mt-3">HSC</div>
-              <div className="col-3">Janta Juniour college, Nagbhid</div>
-              <div className="col-2">Maharastra state board, Pune</div>
-              <div className="col-1 mt-3">2018</div>
+              <div className="col-1 edu-row mt-3 text-light">HSC</div>
+              <div className="col-3 text-light">Janta Juniour college, Nagbhid</div>
+              <div className="col-2 text-light">Maharastra state board, Pune</div>
+              <div className="col-1 mt-3 text-light">2018</div>
             </div>
 
             <div className="row d-flex mt-3 flex-box-education">
-              <div className="col-1 edu-row mt-3">SSC</div>
-              <div className="col-3">Janta Vidyalaya, Nagbhid</div>
-              <div className="col-2">Maharastra state board, Pune</div>
-              <div className="col-1 mt-3">2016</div>
+              <div className="col-1 edu-row mt-3 text-light">SSC</div>
+              <div className="col-3 text-light">Janta Vidyalaya, Nagbhid</div>
+              <div className="col-2 text-light">Maharastra state board, Pune</div>
+              <div className="col-1 mt-3 text-light">2016</div>
             </div>
           </div>
           {/* end of education detail */}
@@ -149,40 +149,40 @@ function Home() {
           <div className="mt-5 row">
             <div className="ms-2 mb-4 borderr">
               <div className="d-flex  row">
-            <h3 className="text-center mb-4 mt-3">Personal Detail's</h3>
-                <hr />
+            <h3 className="text-center mb-4 mt-3 text-light">Personal Detail's</h3>
+                {/* <hr /> */}
                 <div className="col-2">
-                  <div>Father's name</div>
-                  <div>Mother's name</div>
-                  <div>Date of birth</div>
-                  <div>Marital status</div>
-                  <div>Gender</div>
-                  <div>Nationality</div>
-                  <div>Language known</div>
+                  <div className="text-light">Father's name</div>
+                  <div className="text-light">Mother's name</div>
+                  <div className="text-light">Date of birth</div>
+                  <div className="text-light">Marital status</div>
+                  <div className="text-light">Gender</div>
+                  <div className="text-light">Nationality</div>
+                  <div className="text-light">Language known</div>
                 </div>
                 <div className="col-1">
-                  <div>:</div>
-                  <div>:</div>
-                  <div>:</div>
-                  <div>:</div>
-                  <div>:</div>
-                  <div>:</div>
-                  <div>:</div>
+                  <div className="text-light">:</div>
+                  <div className="text-light">:</div>
+                  <div className="text-light">:</div>
+                  <div className="text-light">:</div>
+                  <div className="text-light">:</div>
+                  <div className="text-light">:</div>
+                  <div className="text-light">:</div>
                 </div>
                 <div className="col-4">
-                  <div>Diwakar Shiwaram Korade.</div>
-                  <div>Jyoti Diwakar Korade</div>
-                  <div>28 Feb 2000</div>
-                  <div>Unmarried </div>
-                  <div>Male </div>
-                  <div> Indian </div>
-                  <div>Marathi, Hindi, English and Gujarati.</div>
+                  <div className="text-light">Diwakar Shiwaram Korade.</div>
+                  <div className="text-light">Jyoti Diwakar Korade</div>
+                  <div className="text-light">28 Feb 2000</div>
+                  <div className="text-light">Unmarried </div>
+                  <div className="text-light">Male </div>
+                  <div className="text-light"> Indian </div>
+                  <div className="text-light">Marathi, Hindi, English and Gujarati.</div>
                   <br />
                 </div>
                 <div className="col-5 text-center borderrr"> <br /> <br />
-                  <div>Contact No : <span className="project-btn" onClick={phone}>+91-9657961608</span> </div>
-                  <div>Email-id : <span className="project-btn" onClick={email}>Shyamkorade0@gmail.com</span></div>
-                  <div>Address : Pragati Nagar, Janahit Housing Society, Jaitala, Nagpur-440036</div>
+                  <div className="text-light">Contact No : <span className="project-btn" onClick={phone}>+91-9657961608</span> </div>
+                  <div className="text-light">Email-id : <span className="project-btn" onClick={email}>Shyamkorade0@gmail.com</span></div>
+                  <div className="text-light">Address : Ward No.08, Lakshminagar, Sulezari, Nagbhid, Dist-Chandrapur 441-205</div>
                 </div>
               </div>
             </div>
