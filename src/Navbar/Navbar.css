@@ -10,3 +10,8 @@
 .cursor{
     cursor: pointer;
 }
+
+.logo{
+    height: 18px;
+    margin-top: -3px;
+}

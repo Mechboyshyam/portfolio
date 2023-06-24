@@ -1,6 +1,9 @@
 import React from 'react'
 import "./Navbar.css";
 import { Link } from 'react-router-dom';
+import insta from "./../Images/instagram.png"
+import fb from "./../Images/facebook.png"
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function Navbar() {
   async function map(){
@@ -10,8 +13,20 @@ function Navbar() {
   function phone(){
     window.location.href="tel:9657961608"
 }
-function email(){
+  function email(){
   window.location.href="mailto:shyamkorade0@gmail.com"
+}
+
+function instagram(){
+  window.location.href="https://www.instagram.com/mechboy_shyam/"
+}
+
+function facebook(){
+  window.location.href="https://www.facebook.com/shyam.korade.50"
+}
+
+function cv(){
+  window.location.href="https://drive.google.com/file/d/1hCzJHTeVT-b-ZvhTsyw4r-j3yQ509goC/view?usp=sharing"
 }
 
   return (
@@ -34,16 +49,16 @@ function email(){
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item ms-5">
-                  <Link to="/" className='text-decoration-none' ><span class="nav-link white"  aria-current="page">
+                  <Link to="/" className='text-decoration-none btn' ><span class="nav-link white"  aria-current="page">
                     Home
                   </span></Link>
                 </li>
                 <li class="nav-item ms-5">
-                  <Link to="/resume" className='text-decoration-none'><span class="nav-link white" >Portfolio</span></Link>
+                  <Link to="/resume" className='text-decoration-none btn'><span class="nav-link white" >Portfolio</span></Link>
                 </li>
                 <li class="nav-item dropdown ms-5">
                   <span
-                    class="nav-link white dropdown-toggle"
+                    class="nav-link mt-2 white dropdown-toggle"
                     role="button"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
@@ -67,14 +82,14 @@ function email(){
                 </li>
               </ul>
               <form class="d-flex" role="search">
-                <input
-                  class="form-control me-2"
-                  type="search"
-                  placeholder="Search"
-                  aria-label="Search"
-                />
-                <span class="btn btn-outline-success white"  type="submit">
-                  About
+              <span className="btn text-light " onClick={instagram}>
+              <img className='logo' src={insta} alt="png" /> Instagram
+                </span>
+                <span className="btn text-light " onClick={facebook }>
+                <img className='logo' src={fb} alt="png" />  Facebook
+                </span>
+                <span className="btn text-light " onClick={cv}>
+                  Dowload CV
                 </span>
               </form>
             </div>

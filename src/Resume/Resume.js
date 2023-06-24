@@ -1,7 +1,7 @@
 import React from "react";
 import "./Resume.css";
 import Navbar from "../Navbar/Navbar";
-import Profile from "./../Images/shyam2.JPG";
+import Profile from "./../Images/editedddd pic.png";
 
 function Home() {
   function calculator() {
