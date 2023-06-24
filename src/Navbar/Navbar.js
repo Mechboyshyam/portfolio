@@ -1,18 +1,10 @@
 import React from 'react'
 import "./Navbar.css";
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
-  async function resume(){
-    window.location.href='/resume';
-  }
-
-  function about(){
-    window.location.href='/about';
-  }
-
-  function home(){
-    window.location.href='/';
+  async function map(){
+    window.location.href='https://goo.gl/maps/R2tXYYVTtUyBLLxUA';
   }
 
   function phone(){
@@ -42,12 +34,12 @@ function email(){
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item ms-5">
-                  <span class="nav-link white" onClick={home} aria-current="page">
+                  <Link to="/" className='text-decoration-none' ><span class="nav-link white"  aria-current="page">
                     Home
-                  </span>
+                  </span></Link>
                 </li>
                 <li class="nav-item ms-5">
-                  <span class="nav-link white" onClick={resume}>Portfolio</span>
+                  <Link to="/resume" className='text-decoration-none'><span class="nav-link white" >Portfolio</span></Link>
                 </li>
                 <li class="nav-item dropdown ms-5">
                   <span
@@ -69,7 +61,7 @@ function email(){
                       <hr class="dropdown-divider" />
                     </li>
                     <li>
-                      <span class="dropdown-item cursor">Address on Map</span>
+                      <span onClick={map} class="dropdown-item cursor">Address on Map</span>
                     </li>
                   </ul>
                 </li>
@@ -81,7 +73,7 @@ function email(){
                   placeholder="Search"
                   aria-label="Search"
                 />
-                <span class="btn btn-outline-success white" onClick={about} type="submit">
+                <span class="btn btn-outline-success white"  type="submit">
                   About
                 </span>
               </form>
